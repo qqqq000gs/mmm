@@ -1,35 +1,34 @@
 {
-    "name": "سورس ايــثــون ميوزك بوت الاول في التلجرام قناتنا الرسميه @EITHON1",
+    "name": "سورس الميوزك",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
-    "logo": "https://telegra.ph/file/4763d6135a6dec50390b7.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/EITHON1",
-    "repository": "https://github.com/pqnzbmmwQ92/ll",
-    "success_url": "https://t.me/EITHON1",
+    "website": "https://t.me/X_8_00",
+    "repository": "https://github.com/qqqq000gs/mmm",
+    "success_url": "https://t.me/X_8_00",
     "env": {
-        "API_ID": {
-            "description": "your API_ID from my.telegram.org",
+        "الايبي ايدي الخاص بك": {
+            "description": "احصل عليه من هنا telegram.org",
             "required": true
         },
-        "API_HASH": {
-            "description": "your API_HASH from my.telegram.org",
+        "ايبي هاش الخاص بك": {
+            "description": " ايبي هاش احصل عليه من هنا  telegram.org",
             "required": true
         },
-        "BOT_TOKEN": {
-            "description": "your bot token from @BotFather",
+        "توكن بوتك": {
+            "description": "توكنك احصل عليه من هنا @BotFather",
             "required": true
         },
-        "BOT_USERNAME": {
-            "description": "your bot username from @BotFather",
+        "يوزر البوت": {
+            "description": "احصل عليه من هنا @BotFather",
             "required": true
         },
-        "BOT_NAME": {
-            "description": "fill with your bot name from @BotFather",
+        "اسم البوت الذي يضهر في كليشه ال /start": {
+            "description": ".",
             "required": true
         },
         "ASSISTANT_NAME": {
