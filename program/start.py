@@ -67,22 +67,22 @@ async def start_(client: Client, message: Message):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("‹طريقة التشغيل›", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("‹ طريقة التشغيل ›", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("‹الاوامر الاساسية›", callback_data="cbcmds"),
-                    InlineKeyboardButton("‹المطور›", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("‹ الاوامر الاساسية ›", callback_data="cbcmds"),
+                    InlineKeyboardButton("‹ المطور ›", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹قناة السورس›", url=f"https://t.me/EITHON1"
+                        "‹ قناة السورس› ", url=f"https://t.me/X_8_00"
                     ),
                     InlineKeyboardButton(
-                        "‹قناة البوت›", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "‹ قناة البوت ›", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹لتنصيب بوت مماثل›", url="https://t.me/TTTLL0"
+                        "‹ 👑 لتنصيب بوت مماثل ›", url="https://t.me/N_J_9"
                     )
                 ],
             ]
@@ -102,9 +102,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("اوامر التشغيل", url=f"https://t.me/EITHON1"),
+                InlineKeyboardButton("اوامر التشغيل", url=f"https://t.me/X_8_00"),
                 InlineKeyboardButton(
-                    "مطور السورس", url=f"https://t.me/TTTLL0"
+                    "مطور السورس", url=f"https://t.me/N_J_9"
                 ),
             ]
         ]
@@ -129,29 +129,28 @@ async def src(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("اوامر التشغيل", url=f"https://t.me/EITHON1"),
+                InlineKeyboardButton("اوامر التشغيل", url=f"https://t.me/X_8_00"),
                 InlineKeyboardButton(
-                    "مطور السورس", url=f"https://t.me/TTTLL0"
+                    "مطور السورس", url=f"https://t.me/N_J_9"
                 ),
             ]
         ]
     )
 
-    alive = f"**هلا {message.from_user.mention()}, i'm {BOT_NAME}**\n\nℹ️ 🎶 هذا هو سورس ايـــثــون ميوزك𖠀\nℹ️  اختصاص هذا البوت لتشغيل مقاطع صوتية او مقاطع الفيديو في المكالمات الصوتية \n\n**⚒ لعرض اوامر البوت يمكنك مشاهده الفيدو او قم بدخول الى خاص البوت وتابع التعليمات** 💖"
+    alive = f"**هلا {message.from_user.mention()}, i'm {BOT_NAME}**\n\nℹ️ 🎶 هذا هو سورس 𝘼ꪶ- 𝙎𝙀𝘼𝘿𝘼 ميوزك𖠀\nℹ️  اختصاص هذا البوت لتشغيل مقاطع صوتية او مقاطع الفيديو في المكالمات الصوتية \n\n**⚒ لعرض اوامر البوت يمكنك مشاهده الفيدو او قم بدخول الى خاص البوت وتابع التعليمات** 💖"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
         caption=alive,
         reply_markup=keyboard,
     )
-# حتى هذا تعدل عليه قول ايــثــون تاج راسك يلا 😂
 
 @Client.on_message(command(["بنك", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("جاري الحساب...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `اابنك!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 `البنك هو: !!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["فحص", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
