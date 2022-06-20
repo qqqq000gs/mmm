@@ -31,37 +31,37 @@
             "description": ".",
             "required": true
         },
-        "ASSISTANT_NAME": {
-            "description": "fill with the assistant username account without @",
+        "يوزرنيم الحساب المساعد": {
+            "description": "املأ حساب اسم المستخدم المساعد بدون @",
             "required": true
         },
-        "SESSION_NAME": {
-            "description": "fill with the pyrogram String Session",
+        "كود بايروكرام": {
+            "description": "كود بايروكرام حساب المساعد",
             "required": true
         },
-        "SUDO_USERS": {
-            "description": "list of user ids to be added to sudo member list, or just fill with your id",
+        "يوزر مالك البوت": {
+            "description": "يوزر مالك البوت + تكدر تخلي يوزرات هواي للمالكين ",
             "required": true
         },
-        "GROUP_SUPPORT": {
-            "description": "if you have group, then fill the group username here without @",
+        "قروب الدعم": {
+            "description": "قروب الدعم بدون @ ",
             "required": true,
-            "value": "eithonsupport"
+            "value": "FranceSxG"
         },
-        "UPDATES_CHANNEL": {
-            "description": "if you have channel, then fill the channel username here without @",
+        "قناة البوت": {
+            "description": " ضع يوزر القناة بدون  @",
             "required": true,
-            "value": "EITHON1"
+            "value": "X_8_00"
         },
-        "OWNER_NAME": {
-            "description": "fill with your telegram account username without @",
+        "يوزرك التلي": {
+            "description": " يوزرك التلي بدون @",
             "required": true,
             "value": ""
         },
         "ALIVE_NAME": {
-            "description": "fill with your telegram account nickname/name",
+            "description": "املا اسمك المستعار في التليجرام",
             "required": true,
-            "value": ""
+            "value": "𝘼ꪶ- 𝙎𝙀𝘼𝘿𝘼"
         }
     },
     "addons": [],
